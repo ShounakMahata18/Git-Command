@@ -9,6 +9,7 @@ This contains all the codes use for git.
 => git config --list                                                                           [To show all the changes]
 
 <VS Code terminal Cmd>
+
 => git clone <link>                                                                            [To clone a link in VS Code]
 => git status  
     1)Untracked         [Create a new file that git does not know before]
@@ -17,3 +18,5 @@ This contains all the codes use for git.
     4)Staged            [file is ready to be commited]
 => git add <file name> or git add <.>                                                           [To add or at the staged area]
 => git commit -m "massage"                                                                      [To commit the record]
+
+=> git push origin main                                                                         [push the commit to my github account]
