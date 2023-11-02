@@ -38,3 +38,14 @@ This contains all the codes use for git.
 => git diff <branch name>               [To Find the difference between current and <branch name> branch]
 => git pull origin main                 [To fetch and download content from remote repo to local repo to match the content]
 => git merge main                       [To merge two branches]
+
+<Undo Changes>
+
+1) For add or staged area
+=> git reset <file name>  or git reset  [Undo all the git add . files]
+2) Reset after a single commit
+=> git reset HEAD ~ 1
+3) Undo multiple commit
+=> git log                              [All commit and their hashes]
+=> git reset <Hash>                     [Undo only in git not in vs code]
+=> git reset --hard <Hash>              [Undo in both git and vs code]
