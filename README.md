@@ -29,3 +29,12 @@ This contains all the codes use for git.
 => git branch                           [To check branch]
 => git branch -M main                   [to change the master to main branch]
 => git push origin main         git push -u origin main [-u for is for the default push operation on origin main 1st] => git push[2nd]
+
+<Git Branches>
+
+=> git checkout -b feature1             [To create a new branch]
+=> git checkout <branch name>           [To change a branch]
+=> git branch -d <branch name>          [To delete neighbour branch]
+=> git diff <branch name>               [To Find the difference between current and <branch name> branch]
+=> git pull origin main                 [To fetch and download content from remote repo to local repo to match the content]
+=> git merge main                       [To merge two branches]
